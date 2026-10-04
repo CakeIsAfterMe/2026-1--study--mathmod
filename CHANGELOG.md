@@ -1,3 +1,10 @@
+# [1.2.0](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/compare/v1.1.0...v1.2.0) (2026-10-04)
+
+### Features
+
+* **lab02:** add pursuit model project ([dca6e13](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/commits/dca6e13faad8af1fafd02aa6ef81d89708e2d8b8))
+* **lab02:** add report, presentation and project ([3e71d4a](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/commits/3e71d4a96c975e2afaf45424e178ee0d660914d4))
+
 # [1.1.0](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/compare/v1.0.0...v1.1.0) (2026-10-04)
 
 ### Features
