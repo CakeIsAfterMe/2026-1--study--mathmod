@@ -1,3 +1,10 @@
+# [1.4.0](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/compare/v1.3.0...v1.4.0) (2026-10-04)
+
+### Features
+
+* **lab04:** add oscillator model project ([072424a](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/commits/072424ae13ba692fb699f2d73c1f3afcffa07b6c))
+* **lab04:** add report, presentation and project ([a31d271](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/commits/a31d2710e00a39f750ed805db6f4de47b6e0a2f2))
+
 # [1.3.0](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/compare/v1.2.0...v1.3.0) (2026-10-04)
 
 ### Features
