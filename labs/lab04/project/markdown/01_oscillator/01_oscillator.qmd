@@ -32,9 +32,10 @@ function calc(p, name)
     sol = solve(prob, Tsit5(), saveat=0.05, reltol=1e-8, abstol=1e-8)
     x = first.(sol.u)
     y = last.(sol.u)
-    p1 = plot(sol.t, [x y], label=["x", "y"], xlabel="t", title="Решение")
+    p1 = plot(sol.t, [x y], label=["x" "y"], xlabel="t", title="Решение")
     p2 = plot(x, y, label="", xlabel="x", ylabel="y", title="Фазовый портрет")
     plt = plot(p1, p2, size=(900, 400))
+    savefig(plt, plotsdir(script_name, name))
     println(name, ": x = ", round(x[end]; digits=3), ", y = ", round(y[end]; digits=3))
     return plt
 end
