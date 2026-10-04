@@ -1,0 +1,65 @@
+# Модель боевых действий
+
+Вариант 42: x0 = 45000, y0 = 50000.
+
+```{julia}
+using DrWatson
+@quickactivate "project"
+using DifferentialEquations
+using Plots
+using JLD2
+script_name = "01_war"
+mkpath(plotsdir(script_name))
+```
+
+## Начальные условия
+
+```{julia}
+u0 = [45000.0, 50000.0]
+```
+
+## Модель 1: регулярные войска
+
+```{julia}
+function war1!(du, u, p, t)
+    x, y = u
+    du[1] = -0.29x - 0.67y + abs(sin(t) + 1)
+    du[2] = -0.6x - 0.38y + abs(cos(t) + 1)
+end
+```
+
+## Модель 2: регулярные войска и партизаны
+
+```{julia}
+function war2!(du, u, p, t)
+    x, y = u
+    du[1] = -0.31x - 0.67y + 2abs(sin(2t))
+    du[2] = -0.42x * y - 0.53y + abs(cos(t) + 1)
+end
+```
+
+## Расчёт
+
+```{julia}
+function battle(model, tmax, name)
+    prob = ODEProblem(model, u0, (0.0, tmax))
+    sol = solve(prob, Tsit5(), reltol=1e-8)
+    plt = plot(sol, lw=2, label=["Армия X" "Армия Y"], xlabel="Время", ylabel="Численность")
+    savefig(plt, plotsdir(script_name, name))
+    println(name, ": x = ", round(sol.u[end][1]), ", y = ", round(sol.u[end][2]))
+    return plt
+end
+```
+
+## Случай 1
+
+```{julia}
+plt = battle(war1!, 2.39, "model1.png")
+```
+
+## Случай 2
+
+```{julia}
+plt = battle(war2!, 0.001, "model2.png")
+```
+
