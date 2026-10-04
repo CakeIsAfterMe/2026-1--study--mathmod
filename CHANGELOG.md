@@ -1,3 +1,10 @@
+# [1.3.0](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/compare/v1.2.0...v1.3.0) (2026-10-04)
+
+### Features
+
+* **lab03:** add report, presentation and project ([27ceb4a](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/commits/27ceb4aa2b3ca1829bfb5908244c8b416ae425a8))
+* **lab03:** add war model project ([aec2fd5](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/commits/aec2fd59306a48fd8da797b1f551c113885abf48))
+
 # [1.2.0](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/compare/v1.1.0...v1.2.0) (2026-10-04)
 
 ### Features
