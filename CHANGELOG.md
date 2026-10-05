@@ -1,3 +1,9 @@
+# [1.5.0](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/compare/v1.4.0...v1.5.0) (2026-10-05)
+
+### Features
+
+* **lab05:** add report, presentation and project ([ce6a1ba](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/commits/ce6a1ba71a54a4de3a40e4beb407d5acdee95505))
+
 # [1.4.0](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/compare/v1.3.0...v1.4.0) (2026-10-04)
 
 ### Features
