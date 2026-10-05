@@ -1,3 +1,10 @@
+# [1.7.0](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/compare/v1.6.0...v1.7.0) (2026-10-05)
+
+### Features
+
+* **lab07:** add advertising model project ([440d786](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/commits/440d7864076cd1c0a24217c123bddbe5cec291b3))
+* **lab07:** add report, presentation and project ([3fc6e09](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/commits/3fc6e09f7e261dd4d74771fa64f57f99cce8efbb))
+
 # [1.6.0](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/compare/v1.5.0...v1.6.0) (2026-10-05)
 
 ### Features
