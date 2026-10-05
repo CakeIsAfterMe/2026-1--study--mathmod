@@ -1,3 +1,10 @@
+# [1.8.0](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/compare/v1.7.0...v1.8.0) (2026-10-05)
+
+### Features
+
+* **lab08:** add project for firms competition model ([6c94994](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/commits/6c94994e698d34f097e45a20ca0414d5dfb74fd6))
+* **lab08:** add report, presentation and project ([46b7905](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/commits/46b7905f85c2f837b178ccc96dd7a6e10b87ee89))
+
 # [1.7.0](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/compare/v1.6.0...v1.7.0) (2026-10-05)
 
 ### Features
