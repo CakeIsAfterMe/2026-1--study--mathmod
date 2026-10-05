@@ -1,3 +1,10 @@
+# [1.6.0](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/compare/v1.5.0...v1.6.0) (2026-10-05)
+
+### Features
+
+* **lab06:** add epedemic model project ([4e7dd22](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/commits/4e7dd22f7d946e9786319bae436de7da76dc05cc))
+* **lab06:** add report, presentation and project ([d84a31a](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/commits/d84a31a81602997cf2c1e93103757f4941f092db))
+
 # [1.5.0](https://gitverse.ru/2222/noisycake/2026-1--study--mathmod/compare/v1.4.0...v1.5.0) (2026-10-05)
 
 ### Features
