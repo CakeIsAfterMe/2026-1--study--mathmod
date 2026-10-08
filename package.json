@@ -3,7 +3,7 @@
   "version": "1.8.0",
   "description": "Математическое моделирование",
   "main": "index.js",
-  "repository": "ssh://git@gitverse.ru:2222/noisycake/2026-1--study--mathmod.git",
+  "repository": "https://github.com/CakeIsAfterMe/2026-1--study--mathmod.git",
   "author": "Berezhnoy Ivan <1132236041@rudn.ru>",
   "license": "CC-BY-4.0",
   "config": {
